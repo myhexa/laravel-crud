@@ -19,6 +19,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 route::resource('mahasiswa', 'MahasiswaController');
+route::resource('nasabah', 'NasabahController');
 
 Auth::routes();
 
